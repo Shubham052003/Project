@@ -1,0 +1,64 @@
+/* NavBar Component Styles */
+.navbar {
+    background-color: #0073e6; /* Primary color from Zoho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffcc00; /* Hover color effect */
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; /* Yellow hover effect */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* Light color for the toggler icon */
+  }
+  
+  /* Style for the collapse menu in mobile view */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .navbar-nav .nav-item {
+    padding: 10px 0;
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    font-weight: 700;
+    color: #ffcc00 !important; /* Highlight active link */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-toggler {
+      border-color: #ffffff; /* White border for the navbar toggler */
+    }
+  }
+  
+
+  

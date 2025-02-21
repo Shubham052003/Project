@@ -1,0 +1,20 @@
+
+.balance {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  .title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  
